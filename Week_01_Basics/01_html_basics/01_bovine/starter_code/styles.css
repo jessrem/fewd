@@ -1,0 +1,22 @@
+body {
+    font-family: arial, sans-serif;
+    font-size: 18px;
+    background: #fff;
+}
+ img {
+  float: right;
+  margin-left: 20px;
+  margin-bottom:20px;
+  width: 25%
+}
+
+article {
+  width: 1200px;
+  margin: 0 auto;
+  border-top: 4px solid black;
+}
+
+a {
+  color: red;
+  text-decoration: none;
+}

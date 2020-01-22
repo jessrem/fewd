@@ -1,0 +1,33 @@
+
+.exerciseHeader, .exerciseFooter, .exerciseMain {
+    margin: 0 10px 10px 10px;
+}
+
+.exerciseMainFeatures {
+display: flex;
+
+}
+
+.exerciseMainFeatures .exerciseMarketingFeature {
+width:50%;
+margin-left: 10px;
+margin-bottom: 10px;
+}
+
+.exerciseMainFeatures .exerciseMarketingFeature:first-child {
+margin-left:0px;
+}
+
+.exerciseAdditionalFeatures {
+display: flex;
+}
+
+.exerciseAdditionalFeatures .exerciseMarketingFeature {
+  width:33%;
+  margin-left: 10px;
+
+}
+
+.exerciseAdditionalFeatures .exerciseMarketingFeature:first-child {
+margin-left:0px;
+}
