@@ -1,0 +1,101 @@
+* {
+	box-sizing:border-box;
+}
+
+.clearfix {
+	overflow:auto;
+}
+
+body {
+  background: #1d1d1d;
+  font-family: "Whitney A", "Whitney B", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+
+}
+
+img {
+	max-width: 100%;
+}
+
+.wrapper {
+	max-width: 1260px;
+	margin: 0 auto;
+}
+
+.logo {
+	float: left;
+	margin-top: 19px;
+	margin-bottom: 19px;
+	width: 50%;
+}
+
+.topnav {
+	float: right;
+	text-align: right;
+	margin-top: 30px;
+	overflow: auto;
+}
+
+.topnav ul {
+	padding: 0;
+	margin: 0;
+}
+
+.topnav li {
+	display:block;
+	float:left;
+	margin-left:10px;
+}
+
+.topnav {
+	border: 1px solid #d4145a;
+	display:block;
+	color: white;
+	font-size:22px;
+	font-weight: 700;
+	letter-spacing: 2px;
+	padding: 20px 15px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.topnav a:link {
+	color: blue;
+}
+
+.topnav a:hover {
+	color: black;
+}
+
+.topnav a:visited {
+	color: blue;
+}
+
+.episodes_list ul {
+	padding:0;
+}
+.episodes_list li {
+	display: block;
+	float: left;
+	width: 290px;
+	margin-bottom: 20px;
+	margin-right: 20px;
+}
+
+.episodes_community h2 {
+  margin:10px 0;
+}
+
+.episodes_community p {
+	color:white;
+
+}
+
+.content {
+	background: white;
+	float: left;
+}
+
+
