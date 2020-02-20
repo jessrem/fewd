@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+	<link rel = "stylesheet" href ="calculator.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,500&display=swap" rel="stylesheet">
+
+	<title>How much should I spend on paying off my loans?</title>
+<meta charset = "UTF-8">
+</head>
+
+<body>
+<nav id="navHeader"></nav>
+<div class="container">
+<div class="mainContainer">
+
+
+<h1>Student Loan Repayment Calculator</h1>
+<!-- <h2>Based on the Probabilistic Outcomes of the 2020 Presidential Race</h2> -->
+
+<form>
+
+		<label>Remaining Loan Amount</label>
+		<input type="text" id="loanAmount" value="28562"/>
+		<p>
+		<label>Average Interest Rate</label>
+		<input type="text" id="interestRate" value="4"/>
+
+</form>
+
+<button type="button" id="calculateButton" onClick="calc()">Calculate</button>
+
+<p>
+<div id="resultNumber"></div>
+
+</div>
+
+</div>
+
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="calculator.js"></script>
+
+</html>

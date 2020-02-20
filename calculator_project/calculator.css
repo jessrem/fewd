@@ -1,0 +1,52 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+	/*width: 960px;*/
+}
+.mainContainer {
+	width: 50%;
+	margin: 0 auto;
+	position: relative;
+	display: block;
+}
+
+#navHeader {
+	height: 50px;
+	background-color: #0c486e;
+}
+
+h1 {
+	color: #333333;
+}
+
+h2 {
+	color: #333333;
+}
+
+form {
+	margin: 30px;
+}
+
+label {
+	color: #333333;
+}
+
+input {
+	border-radius: 8px;
+	width: 90px;
+	height: 30px;
+}
+
+#loanAmount {
+	color: #333333;
+	padding-left: 10px;
+	font-size: 16px;
+}
+
+#interestRate {
+	color: #333333;
+	padding-left: 10px;
+	font-size: 16px;
+}
