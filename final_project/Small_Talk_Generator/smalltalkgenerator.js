@@ -15,6 +15,7 @@ var questions = [
 "You are dead. A witch is bringing you back to life. What are the five items you put on the pentagram?",
 "You manifest as a form of weather. What do you pick?",
 "Who is the worst CEO of all time?",
+"Are peanut butter and Nutella in the same category?",
 ]
 
 function currentQuestion(){
